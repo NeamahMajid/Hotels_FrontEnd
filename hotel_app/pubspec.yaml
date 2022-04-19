@@ -1,0 +1,63 @@
+name: hotel_app
+description: A new Flutter application.
+
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  carousel_slider:
+  smooth_page_indicator:
+  dots_indicator:
+  readmore:
+  flutter_rating_bar:
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+ #Capital City Pic
+      - assets/Hotel.png
+      - assets/capitalCity_pic/London.jpg
+      - assets/capitalCity_pic/Baghdad.jpeg
+      - assets/capitalCity_pic/Doha.jpg
+      - assets/capitalCity_pic/Dubai.jpg
+      - assets/capitalCity_pic/Istanbul.jpg
+      - assets/capitalCity_pic/Paris.jpg
+#Top Hotels Picture
+      - assets/topHotels_Pic/swiss.jpg
+      - assets/topHotels_Pic/Park.jpg
+      - assets/topHotels_Pic/Dedeman.jpg
+      - assets/topHotels_Pic/Citizenm.jpg
+      - assets/topHotels_Pic/Babylon.jpg
+#Top Deals Picture
+      - assets/topDeals_Pic/Atlantis.jpg
+      - assets/topDeals_Pic/Karina.jpg
+      - assets/topDeals_Pic/Grand.jpg
+      - assets/topDeals_Pic/Point_A.jpg
+      - assets/topDeals_Pic/Piccadilly.jpg
+#Save Picture
+      - assets/save_Pic/Copthorne Tara Hotel London Kensington.jpg
+      - assets/save_Pic/Hilton London Bankside.jpg
+#London Hotels
+      - assets/hotelsLondon_Pic/CITIZENMLONDON.jpg
+      - assets/hotelsLondon_Pic/Copthorne Tara Hotel London Kensington.jpg
+      - assets/hotelsLondon_Pic/HardLondon.jpg
+      - assets/hotelsLondon_Pic/Bankside.jpg
+      - assets/hotelsLondon_Pic/BrentCross.jpg
+      - assets/hotelsLondon_Pic/HardLondon.jpg
+  #   - images/a_dot_ham.jpeg
